@@ -34,7 +34,7 @@ if [ -e "./HayMicroSpoof.zip" ]; then
 	echo "Please wait"
 else
 	echo -e "\n${red}Downloading Files${default}\n\n"
-	curl -# -o HayMicroSpoof.zip https://icecube-eu-828.icedrive.io/download?p=Lr8HRperP7mNg%2FPU5joFhUZ2xBP50ooEdo9C0XHoPwjzB8C3OHOGQLbHMYTrch4p17mbMhuUJlEFx7eiCmnW4Z%2BCzjMXJ4mdmjAVRrAOpPvejSwedAG0Tru1fR07yH0S7SmUvnU4dwiBdAknMQ70JvSL4oTN24hAXPblEZGypIzlgydnFfyf%2BPrEEbv%2B8HEIgXHeCxGyGWsQCFIS1BHRPw%3D%3D
+	curl -# -o HayMicroSpoof.zip https://dl.uploadgram.me/60f81bc8dabdeh?dl 
 fi
 echo ""
 unzip HayMicroSpoof.zip -d temp
