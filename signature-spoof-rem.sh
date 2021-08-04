@@ -21,7 +21,7 @@ check adb
 
 #checking java
 java -version > /dev/null 2>&1
-check openjdk-8-jdk
+check default-jdk
 
 #checking curl
 curl --version > /dev/null 2>&1
