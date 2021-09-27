@@ -58,8 +58,8 @@ cd haystack-11-attempt
 		cd ../spoof_AVDapi30
 		zip -r Signature-Spoof-A11.zip ./*
 		mkdir -p ../../Ready
-		mv Signature-Spoof-A11.zip ../../Ready/Signature-Spoof-A11.zip
 		adb push Signature-Spoof-A11.zip /sdcard/
+		mv Signature-Spoof-A11.zip ../../Ready/Signature-Spoof-A11.zip
 		cd ../../
 		rm -rf temp
 	else
