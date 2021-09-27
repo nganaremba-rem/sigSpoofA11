@@ -59,6 +59,7 @@ cd haystack-11-attempt
 		zip -r Signature-Spoof-A11.zip ./*
 		mkdir -p ../../Ready
 		mv Signature-Spoof-A11.zip ../../Ready/Signature-Spoof-A11.zip
+		adb push Signature-Spoof-A11.zip /sdcard/
 		cd ../../
 		rm -rf temp
 	else
